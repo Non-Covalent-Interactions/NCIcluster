@@ -1,0 +1,33 @@
+ # ----------------- NCICLUSTER ------------------------
+ # -----------------------------------------------------
+ Start -- Wed Oct 27 10:11:08 2021 
+
++ Reading cube files: 24_Benzene-Benzene_pi-pi-dens.cube
+                      24_Benzene-Benzene_pi-pi-grad.cube
+ 
+  Reading cube file: 24_Benzene-Benzene_pi-pi-dens.cube
+  Reading cube file: 24_Benzene-Benzene_pi-pi-grad.cube
+  Isovalue: 0.3
+  Discarded tails with density and s < 1e-10
+  Fraction of points taken: 1.0
+  Number of points taken:   1397
+  Clustering with DBSCAN method
+  Best N clusters: 3
+  Writing png file 24_Benzene-Benzene_pi-pi-2d.png...              done
+  Writing png file 24_Benzene-Benzene_pi-pi-2d-all.png...          done
+  Writing png file 24_Benzene-Benzene_pi-pi-hm.png...              done
+  Writing cube file 24_Benzene-Benzene_pi-pi-cl0-grad.cube...      done
+  Writing cube file 24_Benzene-Benzene_pi-pi-cl0-dens.cube...      done
+  Writing dat file 24_Benzene-Benzene_pi-pi.dat...                 done
+  Writing cube file 24_Benzene-Benzene_pi-pi-cl1-grad.cube...      done
+  Writing cube file 24_Benzene-Benzene_pi-pi-cl1-dens.cube...      done
+  Writing dat file 24_Benzene-Benzene_pi-pi.dat...                 done
+  Writing cube file 24_Benzene-Benzene_pi-pi-cl2-grad.cube...      done
+  Writing cube file 24_Benzene-Benzene_pi-pi-cl2-dens.cube...      done
+  Writing dat file 24_Benzene-Benzene_pi-pi.dat...                 done
+  Writing vmd file 24_Benzene-Benzene_pi-pi.vmd...                 done
+
+
+ # -----------------------------------------------------
+ End -- Wed Oct 27 10:11:10 2021 
+
