@@ -1,5 +1,4 @@
-# ----------------- NCICLUSTER ------------------------
-# -----------------------------------------------------
+# NCICLUSTER 
 
 Developed by Trinidad Novoa, Francesca Peccati and Julia
 Contreras-García at Laboratoire de Chimie Théorique,
@@ -7,8 +6,6 @@ Sorbonne Université.
 
 Contact email: trinidad.novoa_aguirre@upmc.fr
 
-
-# -----------------------------------------------------
 
 NCICLUSTER is a part of the NCIPLOT program to identify
 non-covalent interaction regions. NCICLUSTER takes the
