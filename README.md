@@ -27,7 +27,7 @@ The output files are to be saved in the same directory.
 
 The user can run 
 
-    python ncicluster.py --help
+    python3 ncicluster.py --help
 
 to display the options menu, which goes as follows.
 
@@ -46,7 +46,7 @@ Finally, the output of the NCICLUSTER program are a collection
 of files : 
  - Two NCI 2D plots, one for all the data and one for data 
    below the isovalue.
- - A heatmat plot, that is supposed to guide the user in the
+ - A heatmap plot, that is supposed to guide the user in the
    adjustment of parameters, if needed.
  - One cube file, system1-cli-grad.cube, for each i-th cluster
    found, containing the gradient and subgrid for each separate
@@ -54,6 +54,8 @@ of files :
  - One cube file, system1-cli-dens.cube, for each i-th cluster
    found, containing the density and subgrid for each separate
    cluster.
+ - One data file, system1-cli.dat, for each i-th cluster found,
+   containing the density*sign(lambda_2) and the RDG.
  - A .vmd file.
    
 There is also a standard output message that keeps the user 
