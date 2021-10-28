@@ -33,14 +33,23 @@ to display the options menu, which goes as follows.
 
 Options:
   -n N               set the number of clusters to the int value N
+  
   --isovalue i       set the isovalue to i
+  
   --size s           set the size of the sample to s
+  
   --method m	     choose the clustering method m="kmeans" or m="dbscan"
+  
   --onlypos b        choose if only position is considered (b=True) or not (b=False), i.e. also consider density
+  
   --doint b          choose if integrals over clustering regions should be computed (b=True) or not (b=False)"
+  
   --seed sd          choose seed for clustering, default is 0
+  
   -v V               choose verbose mode, default is True
+  
   --help             display this help and exit
+  
 
 Finally, the output of the NCICLUSTER program are a collection
 of files : 
