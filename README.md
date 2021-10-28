@@ -42,7 +42,7 @@ Options:
   
   --onlypos b        choose if only position is considered (b=True) or not (b=False), i.e. also consider density
   
-  --doint b          choose if integrals over clustering regions should be computed (b=True) or not (b=False)"
+  --doint b          choose if integrals over clustering regions should be computed (b=True) or not (b=False)
   
   --seed sd          choose seed for clustering, default is 0
   
